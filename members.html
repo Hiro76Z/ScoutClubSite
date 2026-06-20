@@ -2,7 +2,34 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>members</title>
+  <title>メンバー</title>
+  <style>
+    header, footer {
+      background-color: #f0f0f0;
+      padding: 1em;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1em;
+      text-decoration: none;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      font-size: 0.9em;
+    }
+    th {
+      background-color: #1a365d;
+      color: white;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
 <header>
@@ -10,53 +37,49 @@
   <nav>
     <a href="index.html">トップページ</a> |
     <a href="club.html">クラブ紹介</a> |
-    <a href="activities.html">活動記録</a> |
+    <a href="activities.html">年間行事予定</a> |
+    <a href="gallery.html">活動写真</a> |
     <a href="newsletter.html">クラブだより</a> |
     <a href="members.html">メンバー</a> |
-    <a href="contact.html">お問い合わせ</a> |
-    <a href="gallery.html">活動写真</a>
+    <a href="contact.html">お問い合わせ</a>
   </nav>
 </header>
 
-<main>
-<h1>クラブメンバー</h1>
-  <p>現在のクラブ会員数：</p>
-  <ul>
-    <li>法人会員：30社</li>
-    <li>個人会員：およそ70名</li>
-  </ul>
-  <h2>法人会員一覧</h2>
-  <ul>
-    <li>little flower</li>
-    <li>株式会社秋山板金工業所</li>
-    <li>株式会社一宮工務店</li>
-    <li>日泉化学株式会社</li>
-    <li>伊予興業株式会社</li>
-    <li>宇賀金属興業株式会社</li>
-    <li>有限会社蔭山スレート</li>
-    <li>株式会社菅工務店</li>
-    <li>鴻上石油株式会社</li>
-    <li>寿商事株式会社</li>
-    <li>有限会社三光自動車センター</li>
-    <li>株式会社四国資材</li>
-    <li>四国電気工業株式会社</li>
-    <li>株式会社高橋栄商店</li>
-    <li>有限会社坪井インテリアサービス</li>
-    <li>東予スズキ販売株式会社</li>
-    <li>株式会社まるやま</li>
-    <li>株式会社三好鉄工所</li>
-    <li>株式会社山岡</li>
-    <li>山内工業株式会社</li>
-    <li>尚正産業株式会社</li>
-    <li>有限会社光タクシー</li>
-    <li>東菌自編可株式会社</li>
-    <li>ひかりのまど</li>
-    <li>芙蓉海運株式会社</li>
-    <li>株式会社レーイグラッツェふじ</li>
-    <li>有限会社保険企画</li>
-    <li>有限会社諸岡フィノレター工業</li>
-  </ul>
+<main style="padding: 20px; max-width: 1000px; margin: 0 auto;">
+  <h2 style="color: #1a365d; border-bottom: 2px solid #f0f0f0; padding-bottom: 10px;">スカウトクラブ メンバー</h2>
+  <p>新居浜第2団スカウトクラブは、多くの会員の皆様に支えられています。（2026年3月31日現在：会員総数 <strong>94名</strong>）</p>
+
+  <h3 style="color: #2c5282; margin-top: 30px;">法人会員様（含 協力支援員）一覧</h3>
+  <!-- ▼▼▼ 事務的な注意書きのみを残す ▼▼▼ -->
+  <p style="font-size: 0.9em; color: #555;">※個人情報保護の観点から、Webサイト上では法人会員様（26社）のみを五十音順（敬称略）で掲載しております。</p>
+  
+  <!-- 法人会員は縦長になりすぎないよう2列で表示 -->
+  <table>
+    <tbody>
+      <tr><td style="width: 50%;">little flower</td><td style="width: 50%;">株式会社高橋栄商店</td></tr>
+      <tr><td>株式会社秋山板金工業所</td><td>東予スズキ販売株式会社</td></tr>
+      <tr><td>株式会社一宮工務店</td><td>株式会社まるやま</td></tr>
+      <tr><td>日泉化学株式会社</td><td>株式会社三好鉄工所</td></tr>
+      <tr><td>伊予興業株式会社</td><td>株式会社山岡</td></tr>
+      <tr><td>宇賀金属興業株式会社</td><td>山内工業株式会社</td></tr>
+      <tr><td>有限会社蔭山スレート</td><td>尚正産業株式会社</td></tr>
+      <tr><td>株式会社菅工務店</td><td>東田印刷株式会社</td></tr>
+      <tr><td>鴻上石油株式会社</td><td>ひかりのまど</td></tr>
+      <tr><td>寿商事株式会社</td><td>芙蓉海運株式会社</td></tr>
+      <tr><td>有限会社三光自動車センター</td><td>株式会社レーイグラッツェ ふじ</td></tr>
+      <tr><td>株式会社四国資材</td><td>有限会社保険企画東健</td></tr>
+      <tr><td>四国電気工業株式会社</td><td>有限会社諸岡フィルター工業</td></tr>
+    </tbody>
+  </table>
+
+  <!-- ▼▼▼ 個人会員様への感謝のメッセージを分離・独立 ▼▼▼ -->
+  <div style="margin-top: 30px; text-align: center;">
+    <p style="font-size: 0.9em; font-weight: bold; color: #333;">個人会員様（68名）の皆様にも、日頃より多大なるご支援を賜り心より感謝申し上げます。</p>
+  </div>
+  <!-- ▲▲▲ 個人会員様への感謝のメッセージを分離・独立 ▲▲▲ -->
+
 </main>
+
 <footer>
   <p>&copy; 2025 ボーイスカウト新居浜第2団スカウトクラブ</p>
 </footer>
